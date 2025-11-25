@@ -3,7 +3,7 @@
 *Turning a MacBook's headphone jack into a vector display*
 
 <p align="center">
-  <img src="assets/desk_setup.jpg" alt="ScopeDoom desk setup - MacBook, oscilloscope, and wiring" width="800">
+  <img src="assets/logo_transparent_scopedoom.png" alt="ScopeDoom Logo" width="600">
 </p>
 
 ---
