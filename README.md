@@ -2,7 +2,7 @@
 
 **DOOM rendered on a hardware oscilloscope via sound card**
 
-![ScopeDoom Demo](assets/scope_20251125_134832_678.bmp)
+![ScopeDoom Demo](assets/scope_20251125_134832_678.png)
 
 ## Overview
 
