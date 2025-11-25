@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+*.egg
+venv/
+.venv/
+
+# WAV files (large, can be regenerated)
+*.wav
+
+# DOOM binary and WAD
+doom/doomgeneric_kicad
+doom/*.wad
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Screenshots (keep curated ones in assets/)
+screenshots/
