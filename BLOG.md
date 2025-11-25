@@ -6,6 +6,10 @@
   <img src="assets/logo_transparent_scopedoom.png" alt="ScopeDoom Logo" width="600">
 </p>
 
+<p align="center">
+  <img src="assets/desk_setup.jpg" alt="Desk Setup" width="600">
+</p>
+
 ---
 
 ## Why Sound Cards Make Terrible (But Fun) Vector Displays

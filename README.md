@@ -4,6 +4,8 @@
 
 ![ScopeDoom Logo](assets/logo_transparent_scopedoom.png)
 
+![Desk Setup](assets/desk_setup.jpg)
+
 ## Overview
 
 ScopeDoom renders DOOM's 3D world as wireframe vector graphics on a real oscilloscope. It uses your computer's sound card as a dual-channel DAC - the left channel drives the X-axis, the right channel drives the Y-axis, and the scope displays in X-Y mode.
