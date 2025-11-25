@@ -10,7 +10,7 @@
 
 ## Why Sound Cards Make Terrible (But Fun) Vector Displays
 
-After building [KiDoom](https://github.com/your-username/kidoom) (DOOM rendered as PCB traces in KiCad), I wanted to push the wireframe renderer somewhere more... physical. Oscilloscopes in X-Y mode are basically vector displays: feed X coordinates to one channel, Y coordinates to the other, and the electron beam traces out your shapes. The catch? Most people don't have a function generator with USB control lying around.
+After building [KiDoom](https://github.com/michaelayles/kidoom) (DOOM rendered as PCB traces in KiCad), I wanted to push the wireframe renderer somewhere more... physical. Oscilloscopes in X-Y mode are basically vector displays: feed X coordinates to one channel, Y coordinates to the other, and the electron beam traces out your shapes. The catch? Most people don't have a function generator with USB control lying around.
 
 But everyone has a sound card.
 
