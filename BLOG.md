@@ -14,7 +14,7 @@
 
 ## Why Sound Cards Make Terrible (But Fun) Vector Displays
 
-After building [KiDoom](https://github.com/michaelayles/kidoom) (DOOM rendered as PCB traces in KiCad), I wanted to push the wireframe renderer somewhere more... physical. Oscilloscopes in X-Y mode are basically vector displays: feed X coordinates to one channel, Y coordinates to the other, and the electron beam traces out your shapes. The catch? Most people don't have a function generator with USB control lying around.
+After building [KiDoom](https://github.com/michaelayles/kidoom) (DOOM rendered as PCB traces in KiCad), I wanted to push the wireframe renderer somewhere more... physical. Oscilloscopes in X-Y mode are basically vector displays: feed X coordinates to one channel, Y coordinates to the other, and the electron beam traces out your shapes. The catch? Most people don't have an instrumentation DAC laying around.
 
 But everyone has a sound card.
 
@@ -51,7 +51,7 @@ MacBook Pro 3.5mm Jack
         +--- Ground (Sleeve) --------+---- GND
 ```
 
-The 1kΩ resistors provide a load for the headphone amplifier and knock down the signal level. Without them, you'll overdrive the scope inputs and get clipping.
+The 1kΩ resistors provide a load for the headphone amplifier and knock down the signal level. Without them, you may get ringing. At this speed, you probably don't need to worry about things like probe capacitance, but you won't go wrong with a few pf to get rid of the dc offset. Laptop on battery, just to play it safe.
 
 | Component | Model |
 |-----------|-------|
@@ -172,7 +172,7 @@ The scope's display refresh is decoupled from the signal. Even if you send a con
 
 ### 3. Memory Depth Trade-offs
 
-More memory depth = more points captured = smoother curves. But also slower refresh because there's more data to process. At 7k points I get reasonable fidelity; at 14M points the scope would take ages to update.
+More memory depth = more points captured = smoother curves. But also slower refresh because there's more data to process. At 7k points I get reasonable fidelity; at 70k, 700k, 7M+ etc points the scope would take ages to update.
 
 ### 4. No Z-Axis Blanking
 
@@ -190,7 +190,7 @@ On a real analog oscilloscope in X-Y mode:
 - No sample/hold artifacts—continuous beam movement
 - Higher bandwidth analog scopes can handle faster update rates
 
-The digital scope *works*, but a $50 analog scope from eBay would actually look better for this application.
+The digital scope *works*, but a £50 analog scope from eBay would actually look better for this application.
 
 ---
 
